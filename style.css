@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', "Helvetica", "Arial", sans-serif;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.head {
+    padding-right: 20px;
+    padding-left: 20px;
+    background-image: url('https://opencages.com.ua/_nuxt/img/homepage.0151b74.jpg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.head::after {
+    background: #0c3632;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: .85;
+    position: absolute;
+    top: 0;
+    transition: all .25s ease;
+    width: 100%;
+}
+
+.nav {
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.alp {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.bird {
+   height: 40px; 
+}
+
+.list {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    position: relative;
+    transition: all .25s ease;
+}
+
+.link:hover {
+    color: #17baaa;
+}
+
+.link::after {
+    background: #17baaa;
+    bottom: -8px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transition: all .25s ease;
+    width: 100%;
+}
+
+.link:hover::after {
+transform: scaleX(1);
+}
+
+.list li {
+display: flex;
+color: white;
+font-weight: bold;
+font-size: 14px;
+padding: 0 10px;
+}
+
+
+.list li div {
+background-color: #dd3d53;
+padding: 0 10px;
+line-height:  30px;
+border-radius: 3px;
+transition: all .25s ease;
+display: flex;
+align-items: center;
+}
+
+.list li div:hover {
+    background-color: #c9233a;
+}
+
+.fs-s {
+    width: 1em;
+    margin-right: 5px;
+}
+
+
+
+
+
+
